@@ -21,8 +21,8 @@ compile: true  # for direct prediction
 fabric:
   _target_: lightning.fabric.Fabric
   accelerator: gpu
-  strategy: ddp
-  devices: 8
+  strategy: auto
+  devices: 1
   num_nodes: 1
   loggers:
     _target_: wandb.integration.lightning.fabric.WandbLogger

@@ -183,8 +183,8 @@ annealer:
 # Training settings
 ################################################################################
 
-train_batch_size: 64
-inference_batch_size: 64
+train_batch_size: 8
+inference_batch_size: 8
 steps_per_epoch: 100
 log_step_loss: true
 
