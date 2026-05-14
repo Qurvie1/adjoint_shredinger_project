@@ -5,5 +5,6 @@
 # LICENSE file in the root directory of this source tree.
 
 from .well_tempered import WellTemperedMetadynamicsBias
+from .deep_ves import DeepVESMetadynamicsBias
 
-__all__ = ["WellTemperedMetadynamicsBias"]
+__all__ = ["WellTemperedMetadynamicsBias", "DeepVESMetadynamicsBias"]
